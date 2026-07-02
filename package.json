@@ -1,6 +1,6 @@
 {
   "name": "winnode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WinScan Tx SDK - Transaction toolkits for Cosmos SDK and EVM chains",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
