@@ -28,6 +28,20 @@ npm install winnode
 Requires Node.js 18+ and (for EVM signing) a browser environment with
 MetaMask injected as `window.ethereum`.
 
+### CDN
+
+For quick prototyping without a bundler, load the ESM build directly from a
+CDN:
+
+```html
+<script type="module">
+  import { isEvmChain, cosmosTx, evmTx } from 'https://cdn.jsdelivr.net/npm/winnode/dist/index.mjs';
+</script>
+```
+
+Or from unpkg: `https://unpkg.com/winnode/dist/index.mjs`. Pin a version for
+production use, e.g. `https://cdn.jsdelivr.net/npm/winnode@1.0.1/dist/index.mjs`.
+
 ## Usage
 
 ```typescript
