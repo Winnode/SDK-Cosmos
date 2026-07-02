@@ -135,7 +135,7 @@ typechecks, tests, builds, and publishes the package automatically.
 ## Security
 
 See [SECURITY.md](SECURITY.md) for supported versions and how to report a
-vulnerability.
+vulnerability, or email **nathan@winnode.xyz**.
 
 ## License
 

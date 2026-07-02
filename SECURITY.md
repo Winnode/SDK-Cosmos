@@ -15,7 +15,7 @@ If you discover a security vulnerability (e.g. a signing/broadcast flaw, a
 fee-calculation issue that could cause fund loss, or a dependency
 vulnerability), please **do not open a public GitHub issue**. Instead report
 it privately via [GitHub Security Advisories](https://github.com/winnode/sdk-cosmos/security/advisories/new)
-for this repository.
+for this repository, or email **nathan@winnode.xyz**.
 
 Include:
 
