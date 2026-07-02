@@ -25,6 +25,12 @@ toolkit for a given chain.
 npm install winnode
 ```
 
+Also published to [GitHub Packages](https://github.com/Winnode/SDK-Cosmos/packages) as `@winnode/sdk-cosmos`:
+
+```bash
+npm install @winnode/sdk-cosmos --registry=https://npm.pkg.github.com
+```
+
 Requires Node.js 18+ and (for EVM signing) a browser environment with
 MetaMask injected as `window.ethereum`.
 
