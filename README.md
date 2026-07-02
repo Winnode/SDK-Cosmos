@@ -112,13 +112,6 @@ changed. Push the resulting commit and tag to `main`
 (`git push && git push --tags`); the `Publish to npm` workflow lints,
 typechecks, tests, builds, and publishes the package automatically.
 
-## Staying up to date
-
-[Dependabot](.github/dependabot.yml) opens weekly PRs to keep dependencies
-(`@cosmjs/*`, `ethers`, etc.) and GitHub Actions on their latest versions.
-Every dependency PR runs through the same [CI checks](.github/workflows/ci.yml)
-as any other change before it can be merged.
-
 ## Security
 
 See [SECURITY.md](SECURITY.md) for supported versions and how to report a
@@ -127,4 +120,3 @@ vulnerability.
 ## License
 
 [MIT](LICENSE)
-# SDK-Cosmos

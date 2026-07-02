@@ -30,7 +30,6 @@ available, it will be released as a patch version and noted in
 ## Dependencies
 
 This SDK signs and broadcasts transactions via `@cosmjs/*` and `ethers`.
-Dependency versions are kept current via automated updates (see
-[`.github/dependabot.yml`](.github/dependabot.yml)), and all changes go
-through CI (lint, typecheck, tests, build — see
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml)) before merging.
+All changes, including dependency bumps, go through CI (lint, typecheck,
+tests, build — see [`.github/workflows/ci.yml`](.github/workflows/ci.yml))
+before merging.
